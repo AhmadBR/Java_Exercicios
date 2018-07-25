@@ -34,6 +34,7 @@ import java.util.Scanner;
 							vet[i]=0;
 						}else{
 							System.out.print("Nem um valor para desempilhar");
+						}
 						break;
 					case 3:
 						System.out.println("Ha na pilha:");
