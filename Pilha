@@ -13,17 +13,17 @@ import java.util.Scanner;
 				y = x.nextInt();
 				switch(y){
 					case 1:
-							if(i < 0){
-								System.out.println("A pilha esta cheia desempilhe se deseja adicionar mais valores");
-								i++;
-							}else{
-								System.out.println("Valores iquais a zero serao substituido por 1");
-								System.out.print("Digite Um valor para a pilha: ");
-								vet[i] = x.nextInt();
-								if(vet[i]==0){
-									vet[i] = 1 ;	
-								}
+						if(i < 0){
+							System.out.println("A pilha esta cheia desempilhe se deseja adicionar mais valores");
+							i++;
+						}else{
+							System.out.println("Valores iquais a zero serao substituido por 1");
+							System.out.print("Digite Um valor para a pilha: ");
+							vet[i] = x.nextInt();
+							if(vet[i]==0){
+								vet[i] = 1 ;	
 							}
+						}
 						i--;
 						k++;
 						break;
