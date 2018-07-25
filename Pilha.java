@@ -16,6 +16,7 @@ import java.util.Scanner;
 						if(i < 0){
 							System.out.println("A pilha esta cheia desempilhe se deseja adicionar mais valores");
 							i++;
+							k--;
 						}else{
 							System.out.println("Valores iquais a zero serao substituido por 1");
 							System.out.print("Digite Um valor para a pilha: ");
